@@ -2,8 +2,6 @@ const express = require('express')
 const ArticlesController = require('./controllers/ArticlesController')
 const PageController = require('./controllers/PageController')
 const SqlClient = require('./lib/SqlClient')
-const ArticlesDAO = require('./models/dao/ArticlesDAO')
-
 const router = express.Router()
 
 // Database Client
